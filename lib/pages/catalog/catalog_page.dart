@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:v_gqs_aulas/pages/app_bar/app_bar_page.dart';
+import 'package:v_gqs_aulas/pages/circular_progress_indicator/circular_progress_indicator_page.dart';
 import 'package:v_gqs_aulas/pages/colum/colum_page.dart';
 import 'package:v_gqs_aulas/pages/container/container_page.dart';
 import 'package:v_gqs_aulas/pages/drawer/drawer_page.dart';
+import 'package:v_gqs_aulas/pages/floating_action_button/floating_action_button_page.dart';
 import 'package:v_gqs_aulas/pages/list_view_builder/list_view_builder_page.dart';
 import 'package:v_gqs_aulas/pages/padding/padding_page.dart';
 import 'package:v_gqs_aulas/pages/row/row_page.dart';
+import 'package:v_gqs_aulas/pages/safe_area/safe_area_page.dart';
 import 'package:v_gqs_aulas/pages/scaffold/scaffold_page.dart';
 import 'package:v_gqs_aulas/pages/single_child_scroll_view/single_child_scroll_view_page.dart';
 import 'package:v_gqs_aulas/pages/snack_bar/snack_bar_page.dart';
@@ -113,7 +116,7 @@ class CatalogPage extends StatelessWidget {
               customButton(
                 context,
                 'Drawer',
-                DrawerPage(),
+                const DrawerPage(),
               ),
               customButton(
                 context,
@@ -123,17 +126,17 @@ class CatalogPage extends StatelessWidget {
               customButton(
                 context,
                 'SafeArea',
-                Container(),
+                const SafeAreaPage(),
               ),
               customButton(
                 context,
                 'FloatingActionButton',
-                Container(),
+                const FloatingActionButtonPage(),
               ),
               customButton(
                 context,
                 'CircularProgressIndicator',
-                Container(),
+                const CircularProgressIndicatorPage(),
               ),
             ],
           ),
