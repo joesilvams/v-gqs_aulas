@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:v_gqs_aulas/pages/catalog/catalog_page.dart';
+import 'package:v_gqs_aulas/pages/home/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const CatalogPage(),
+      home: const HomePage(),
     );
   }
 }
