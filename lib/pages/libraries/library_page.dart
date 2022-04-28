@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:v_gqs_aulas/components/custom_text_button.dart';
-import 'package:v_gqs_aulas/pages/library/flutter_icon/flutter_icon.dart';
-import 'package:v_gqs_aulas/pages/library/shared_preferences/shared_preferences_page.dart';
-import 'package:v_gqs_aulas/pages/library/url_launcher/url_launcher_page.dart';
+import 'package:v_gqs_aulas/pages/libraries/flutter_icon/flutter_icon.dart';
+import 'package:v_gqs_aulas/pages/libraries/shared_preferences/shared_preferences_page.dart';
+import 'package:v_gqs_aulas/pages/libraries/url_launcher/url_launcher_page.dart';
 
 class LibraryPage extends StatelessWidget {
   const LibraryPage({Key? key}) : super(key: key);

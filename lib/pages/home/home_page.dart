@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:v_gqs_aulas/components/custom_text_button.dart';
-import 'package:v_gqs_aulas/pages/library/library_page.dart';
+import 'package:v_gqs_aulas/pages/libraries/library_page.dart';
 import 'package:v_gqs_aulas/pages/widgets/widget_page.dart';
 
 class HomePage extends StatelessWidget {
