@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:v_gqs_aulas/components/custom_text_button.dart';
 import 'package:v_gqs_aulas/pages/libraries/library_page.dart';
+import 'package:v_gqs_aulas/pages/state_management/state_management.dart';
 import 'package:v_gqs_aulas/pages/widgets/widget_page.dart';
 
 class HomePage extends StatelessWidget {
@@ -23,6 +24,10 @@ class HomePage extends StatelessWidget {
               CustomTextButton(
                 page: LibraryPage(),
                 text: 'Bibliotecas',
+              ),
+              CustomTextButton(
+                page: StateManagementPage(),
+                text: 'Gerenciamento de Estados',
               ),
             ],
           ),
